@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solana DrugLords</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: linear-gradient(135deg, #1a0026, #2b003a, #3c0052);
+      color: white;
+      overflow-x: hidden;
+    }
+
+    /* Glassmorphism Navbar */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      backdrop-filter: blur(15px);
+      background: rgba(255, 255, 255, 0.05);
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      z-index: 1000;
+    }
+
+    nav img {
+      height: 45px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ff00cc;
+      text-shadow: 0 0 8px #ff00cc;
+    }
+
+    /* Sections */
+    section {
+      min-height: 100vh;
+      padding: 120px 10% 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    section h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #ff00cc;
+      text-shadow: 0 0 12px #ff00cc;
+    }
+
+    section p {
+      font-size: 1rem;
+      line-height: 1.8;
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    .content-block {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 15px;
+      padding: 25px;
+      margin-top: 20px;
+      box-shadow: 0 0 20px rgba(255,0,204,0.15);
+      animation: fadeInUp 1s ease both;
+    }
+
+    /* Roadmap image */
+    .roadmap-img {
+      max-width: 100%;
+      margin-top: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(255,0,204,0.3);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(10px);
+      border-top: 1px solid rgba(255,255,255,0.2);
+    }
+
+    footer a {
+      margin: 0 15px;
+      display: inline-block;
+    }
+
+    footer img {
+      height: 30px;
+      transition: 0.3s;
+    }
+
+    footer img:hover {
+      transform: scale(1.2);
+      filter: drop-shadow(0 0 8px #ff00cc);
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <img src="logo.png" alt="Logo">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#whitepaper">Whitepaper</a></li>
+      <li><a href="#roadmap">Roadmap</a></li>
+      <li><a href="#utility">Utility</a></li>
+      <li><a href="#vision">Vision</a></li>
+    </ul>
+  </nav>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h1>ABOUT</h1>
+    <div class="content-block">
+      <p>Welcome to the underworld of Solana. Solana DrugLords is not just an NFT project, it’s an empire built for the bold, the fearless, and the ones ready to take control of the digital streets.</p>
+      <p>With a supply of 3,333 rare NFTs, each DrugLord is your passport into a world of power, exclusivity, and influence. Holding a DrugLord means more than flexing art, it means owning status, unlocking utilities, and joining a community that dominates together.</p>
+      <p>Inside the empire, you’ll gain access to:</p>
+      <p>🔥 The Territory – a members-only digital world where alliances are made, events unfold, and VIP experiences take place.<br>
+      💰 $SDL Token – earn, stake, and use $SDL as the currency of the DrugLords ecosystem.<br>
+      ⚔️ Gamified Power Plays – complete missions, rise through the ranks, and unlock rewards only the strongest can claim.<br>
+      🤝 Elite Partnerships – collaborations, utilities, and drops designed to make DrugLords one of the most unstoppable forces on Solana.<br>
+      👑 Lifestyle & Legacy – from merch to IRL experiences, your DrugLord identity goes beyond Web3 into the real world.</p>
+      <p>This is not just another NFT project. This is a movement, a brand, and a legacy in the making.</p>
+      <p>The empire is rising. The streets are ours. Will you claim your place among the Solana DrugLords?</p>
+    </div>
+  </section>
+
+  <!-- WHITEPAPER -->
+  <section id="whitepaper">
+    <h1>WHITEPAPER</h1>
+    <div class="content-block">
+      <p>Step into the empire of SOLANA DRUGLORDS, a world of power, loyalty, and influence on the Solana blockchain. This roadmap defines not just the project’s evolution, but also the holder's journey, ensuring that every member of the 3,333 supply rises in rank, power, and legacy.</p>
+      <h3>🏆 Phase 1 — The Rise of the Empire</h3>
+      <p>🔥 3,333 Genesis NFTs<br>
+      Launch of 3,333 unique Druglords NFTs, each designed to represent status and influence in the empire. Ownership grants exclusive community access, early ecosystem perks, and entry to the empire’s digital underworld.</p>
+      <p>🌐 Private Territory<br>
+      Access to a members-only hub for networking, strategy, and collaboration.</p>
+      <p>💰 $SDL Token Airdrops<br>
+      Founding holders begin receiving $SDL token rewards based on activity and engagement.</p>
+      <p>🤝 Strategic Alliances<br>
+      Partnerships with top projects & brands to expand reach.</p>
+
+      <h3>⚡ Phase 2 — Expansion & Domination</h3>
+      <p>🌟 New NFT Drops & Upgrades<br>
+      Introduction of limited collections and upgraded NFTs for loyal holders.</p>
+      <p>🎮 Gamified Experiences<br>
+      Launch of quests, missions, and challenges that reward holders with $LAWS and NFTs.</p>
+      <p>👕 Lifestyle & Merch<br>
+      Exclusive Druglords-themed merch for holders.</p>
+      <p>🗳 Governance & Holder Power<br>
+      DAO-powered influence ensures every loyal Druglord has a voice.</p>
+
+      <h3>🌌 Phase 3 — Legacy & Power</h3>
+      <p>🏙 Ecosystem Expansion<br>
+      Large-scale partnerships and integration into the wider Solana ecosystem.</p>
+      <p>💎 VIP & Elite Programs<br>
+      High-ranking holders gain exclusive drops and elite access.</p>
+      <p>🚀 Innovation & Beyond<br>
+      Expansion into AI-driven events, advanced gamification, and immersive experiences.</p>
+      <p>🌟 The Future of SOLANA DRUGLORDS<br>
+      This roadmap is only the beginning. The 3,333 Druglords rise together, not just as NFT holders, but as rulers of an expanding empire.</p>
+    </div>
+  </section>
+
+  <!-- ROADMAP -->
+  <section id="roadmap">
+    <h1>ROADMAP</h1>
+    <div class="content-block">
+      <p>Here’s our official roadmap image:</p>
+      <img src="roadmap.png" alt="Roadmap" class="roadmap-img">
+    </div>
+  </section>
+
+  <!-- UTILITY -->
+  <section id="utility">
+    <h1>UTILITY</h1>
+    <div class="content-block">
+      <p>💰 Cartel Payouts (Staking for SOL)<br>Your NFT works while you rest. Stake it and earn SOL — the empire pays its loyal.</p>
+      <p>🔗 Launchpad Access (Cartel Expansion)<br>Early access to cartel-backed mints across Solana, SEI, and Monad.</p>
+      <p>💊 $SDL Airdrops (Cartel Currency)<br>Holders receive exclusive $SDL token drops — the official blood money of the Drug Lords.</p>
+      <p>🔫 Raid-to-Earn (Territory Wars)<br>The cartel grows through raids. Rep the Drug Lords and earn SOL + tokens.</p>
+      <p>🎰 Casino Connections<br>Every Lord gets free weekly spins in the underground casino.</p>
+      <p>📦 Guaranteed Cartel Shipments (Airdrops)<br>Future drops and rewards are guaranteed for OG Lords.</p>
+      <p>👑 Double Allocation for Expansion<br>When the next empire rises, OG Lords get 2x allocation.</p>
+      <p>🔥 Community Sweep Events & Giveaways<br>Casino revenue feeds the family: cartel-funded sweeps and giveaways.</p>
+    </div>
+  </section>
+
+  <!-- VISION -->
+  <section id="vision">
+    <h1>VISION</h1>
+    <div class="content-block">
+      <p>The vision of Solana DrugLords is to build more than just an NFT collection, we are creating a digital empire of power, prestige, and opportunity.</p>
+      <p>Our mission is to unite 3,333 elite members under one brand that thrives on exclusivity, innovation, and community-driven growth. Through NFTs, $SDL tokens, gamified experiences, partnerships, and lifestyle elements, we aim to create an ecosystem where holders own not just an asset, but a status, an influence, and a legacy.</p>
+      <p>We see Solana DrugLords becoming:</p>
+      <p>🌍 A global community recognized for strength and collaboration.<br>
+      🏰 A digital territory where networking and innovation meet.<br>
+      👕 A lifestyle brand bridging Web3 and the real world.<br>
+      🔥 A long-term ecosystem that rewards loyalty and expands continuously.</p>
+      <p>At the core of our vision is sustainability, exclusivity, and innovation, ensuring every member of the Solana DrugLords empire is part of something legendary.</p>
+    </div>
+  </section>
+
+<!-- FOOTER -->
+<footer style="text-align: center; padding: 20px; font-family: 'Poppins', sans-serif; color: white;">
+  <div style="margin-bottom: 10px;">
+    <a href="https://discord.gg/SwZ9DUEdAS" target="_blank" style="margin: 0 15px; display: inline-block;">
+      <img src="discord.png" alt="Discord" style="width: 32px; height: 32px;">
+    </a>
+    <a href="https://x.com/solanadruglords" target="_blank" style="margin: 0 15px; display: inline-block;">
+      <img src="twitter.png" alt="Twitter" style="width: 32px; height: 32px;">
+    </a>
+  </div>
+  <p style="font-size: 14px; color: rgba(255,255,255,0.7);">
+    © 2025 Solana DrugLords. All rights reserved.
+  </p>
+</footer>
+
+</body>
+</html>
